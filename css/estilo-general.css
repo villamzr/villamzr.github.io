@@ -156,8 +156,33 @@ div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon a:hover{
 	color:  #3498db;
 }
 
-#prueba-test{
-	background-color: #FF0072;
-	font-size: 30px;
-	font-family: century ghotic;
+/*RESPONSIVE*/
+@media screen and (min-width:800px) and (max-width: 900px){
+
+	/*Capa oscura de la imagen de fondo*/
+	div .capa-oscura{
+		height: 115%;
+	}
+
+	/*Imagen de fondo*/ /*Photo by NASA on Unsplash*/
+	div .img-fondo{
+		width: 100%;
+		height: 115%;
+		background-size: 110%;
+	}
+}
+
+@media screen and (min-width:429px) and (max-width: 799px){
+
+	/*Capa oscura de la imagen de fondo*/
+	div .capa-oscura{
+		height: 120%;
+	}
+
+	/*Imagen de fondo*/ /*Photo by NASA on Unsplash*/
+	div .img-fondo{
+		width: 100%;
+		height: 120%;
+		background-size: 200%;
+	}
 }
