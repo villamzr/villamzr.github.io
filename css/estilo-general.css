@@ -1,0 +1,157 @@
+/*RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+/*FUENTES*/
+@font-face{
+	font-family: roboto;
+	src:url(fuentes/roboto/Roboto-Thin.ttf);
+}
+/*Contiene todo*/
+.contenedor-principal{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/*Capa oscura de la imagen de fondo*/
+div .capa-oscura{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 108%;
+	position: absolute;
+	z-index: -1
+}
+
+/*Imagen de fondo*/ /*Photo by NASA on Unsplash*/
+div .img-fondo{
+	width: 100%;
+	height: 108%;
+	background-image: url(../img/fondo-body4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	position: absolute;
+	z-index: -2;
+}
+
+/*CONTENEDOR CV INICIO (home)*/
+div .contenedor-cv-inicio{
+	width: 468px;
+	height: 570px;
+	margin:33px auto;
+	background-color: #ecf0f1;
+	border-top: 6px solid #34495e;
+	box-shadow: 1px 1px 20px black;
+	background-image: url(../img/fondo-inicio.png);
+}
+/*Contnerdor del perfil*/
+div div .perfil{
+	margin-top: 30px;
+}
+
+/*CONTENEDOR foto perfil*/
+div div section .contenedor-foto-perfil{
+	width: 100%;
+	height: 50%;
+}
+
+/*foto perfil*/
+div div section .contenedor-foto-perfil figure .foto-perfil{
+	display: block;
+	margin: auto;
+	width: 190px;
+	height: 190px;
+	border-radius: 100%;
+	border: 5px solid #ddd;
+}
+
+/*Descripción general*/
+div div .perfil .resumen-cv-inicio .descripcion{
+	text-align: center;
+	font-family: 'Montserrat', 'sans-serif', 'Roboto';
+}
+
+/*Saludo*/
+div div .perfil .resumen-cv-inicio .descripcion #titulo-1{
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: 900;
+	color: #2c3e50;
+}
+/*Nombre*/
+div div .perfil .resumen-cv-inicio .descripcion #titulo-2{
+	font-size: 25px;
+	color: #3498db;
+}
+/*Profesion*/
+div div .perfil .resumen-cv-inicio .descripcion #titulo-3{
+	font-size: 14px;
+	color: #7f8c8d;
+}
+
+.hr1{
+	border: none;
+	height: 10px;
+	width: 100%;
+	background-image: url(../img/hr1.png);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Párrafo Descriptivo de mi profesión*/
+div div .perfil .resumen-cv-inicio .descripcion-parrafo{
+	width: 100%;
+	margin-bottom: 20px; 
+	text-align: center;
+	color: #333;
+	font-family: roboto;
+	font-weight: 900;
+}
+
+/*Datos de contacto del INICIO (home)*/
+div div .perfil .resumen-cv-inicio .contacto-rapido{
+	width: 90%;
+	height: 44px;
+	margin: 15px auto;
+	background-color: #34495e;
+	border-radius: 10px;
+	align-content: center;
+}
+
+/*Div Oscuro en forma de botón*/
+div div .perfil .resumen-cv-inicio .contacto-rapido #prueba{
+	color: white;
+	padding: 10px;
+	font-size: 14px;
+}
+
+
+/*FOOTER INICIO*/
+/*Redes sociales*/
+
+/*DIV*/
+div div section .resumen-cv-inicio .redes-sociales{
+	margin-top: 33px;
+	width: 100%;
+}
+/*Footer dentro de DIV*/
+div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	letter-spacing: -10px;
+}
+/*Enlaces dentro de footer*/
+div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon a{
+	text-decoration: none;
+	color:#34495e;
+}
+
+div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon a:hover{
+	text-decoration: none;
+	color:  #3498db;
+}
