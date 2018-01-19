@@ -161,9 +161,16 @@ div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon a:hover{
 /*RESPONSIVE*/ /*Imagen de fondo responsiva*/
 @media screen and (min-width:800px){
 
+	/*Capa oscura de la imagen de fondo*/
+	div .capa-oscura{
+		height: 115%;
+	}
+
 	/*Imagen de fondo*/ /*Photo by NASA on Unsplash*/
 	div .img-fondo{
-		background-size: 200%;
+		width: 100%;
+		height: 115%;
+		background-size: 180%;
 	}
 }
 
@@ -182,110 +189,10 @@ div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon a:hover{
 	}
 }
 
-@media screen and (max-width: 428px){
-
-	/*Capa oscura de la imagen de fondo*/
-	div .capa-oscura{
-		height: 120%;
-	}
-
-	/*Imagen de fondo*/ /*Photo by NASA on Unsplash*/
-	div .img-fondo{
-		width: 100%;
-		height: 120%;
-		background-size: 600%;
-	}
-}
-
 /*RESPONSIVE*/ /*cv-card INICIO*/
-@media screen and (min-width:567px) and (max-width: 660px) {
+@media screen and (max-width: 630px) {
 	/*CONTENEDOR CV INICIO (home)*/
 	div .contenedor-cv-inicio{
 		width: 90%;
-		height: 600px;
 	}
-	
-	/*Saludo*/
-div div .perfil .resumen-cv-inicio .descripcion #titulo-1{
-	width: 100%;
-	font-size: 40px;
-}
-/*Nombre*/
-div div .perfil .resumen-cv-inicio .descripcion #titulo-2{
-	width: 95%;
-	margin: auto;
-	font-size: 35px;
-}
-/*Profesion*/
-div div .perfil .resumen-cv-inicio .descripcion #titulo-3{
-	width: 100%;
-	font-size: 20px;
-}
-
-.hr1{
-	width: 90%;
-	background-position: center;
-}
-
-/*Párrafo Descriptivo de mi profesión*/
-div div .perfil .resumen-cv-inicio .descripcion-parrafo{
-	font-size: 18px;
-}
-
-div div .perfil .resumen-cv-inicio .contacto-rapido #prueba{
-	font-size: 17px;
-}
-
-div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon{
-	font-size: 35px;
-}
-
-}
-
-/*RESPONSIVE*/ /*cv-card INICIO*/
-@media screen and (max-width: 566px) {
-	/*CONTENEDOR CV INICIO (home)*/
-	div .contenedor-cv-inicio{
-		width: 90%;
-		height: 660px;
-	}
-	
-	/*Saludo*/
-div div .perfil .resumen-cv-inicio .descripcion #titulo-1{
-	width: 100%;
-	font-size: 40px;
-}
-/*Nombre*/
-div div .perfil .resumen-cv-inicio .descripcion #titulo-2{
-	width: 95%;
-	margin: auto;
-	font-size: 35px;
-}
-/*Profesion*/
-div div .perfil .resumen-cv-inicio .descripcion #titulo-3{
-	width: 100%;
-	font-size: 20px;
-}
-
-.hr1{
-	width: 90%;
-	background-position: center;
-}
-
-/*Párrafo Descriptivo de mi profesión*/
-div div .perfil .resumen-cv-inicio .descripcion-parrafo{
-	font-size: 20px;
-	margin: auto;
-	width: 65%;
-}
-
-div div .perfil .resumen-cv-inicio .contacto-rapido #prueba{
-	font-size: 17px;
-	width: 100%;
-}
-
-div div section .resumen-cv-inicio .redes-sociales .redes-sociales-icon{
-	font-size: 35px;
-}
-
 }
