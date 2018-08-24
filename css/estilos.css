@@ -30,11 +30,14 @@ body{
 main{
 	width: 100%;
 	background-color:  #E0DDDD;
-	display: flex;
+	display: block;
 }
 
 article{
 	padding: 30px 30px 30px 30px;
+	position: absolute;
+	left: 230px;
+	top: 1%;
 }
 
 article h1{
@@ -49,7 +52,9 @@ article p{
 
 .content-menu{
 	width: 250px;
+	height: 100vh;
 	background-color: #E0DDDD;
+	position: fixed;
 }
 
 .content-menu2{
@@ -114,6 +119,9 @@ article p{
 
 	article{
 		padding: 130px 30px 30px 30px;
+		display: block;
+		left: 20px;
+		z-index: -1;
 	}
 
 	article h1{
@@ -130,6 +138,7 @@ article p{
 		display: block;
 		position: fixed;
 		top: 100px;
+		transition: all 700ms;
 	}
 
 	.content-menu li{
