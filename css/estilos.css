@@ -9,16 +9,13 @@ header{
 	width: 100%;
 	height: 60px;
 	background-color: #E0DDDD;
+	display: none;
 }
 
 header span{
 	font-size: 40px;
 	padding: 10px;
 	color: white;
-	transition: all 300ms;
-	cursor: pointer;
-	position: fixed;
-	left: 90px;
 }
 
 header span:hover{
@@ -53,8 +50,6 @@ article p{
 .content-menu{
 	width: 250px;
 	background-color: #E0DDDD;
-	position: relative;
-	transition: all 700ms;
 }
 
 .content-menu2{
@@ -91,3 +86,85 @@ article p{
 	color:white;
 	cursor: pointer;
 }
+
+/******************************************************************/
+
+/*
+
+	MEDIA QUERYS 600 px 
+
+
+*/
+
+@media screen and (max-width: 600px){
+	
+	header{
+		height: 120px;
+		display: inline-flex;
+		position: fixed;
+		padding: 30px;
+}
+
+	header span{
+		transition: all 300ms;
+		cursor: pointer;
+		position: fixed;
+		left: 40px;
+	}
+
+	article{
+		padding: 100px 30px 30px 30px;
+	}
+
+	article h1{
+		font-size: 60px;
+	}
+
+	article p{
+		font-size: 25px;
+	}
+
+	.content-menu{
+		width: 150px;
+		display: block;
+		position: fixed;
+		top: 100px;
+	}
+
+	.content-menu2{
+		transform: translateX(-250px);
+		margin-left: -200px;
+	}
+
+	.content-menu li{
+		color:#626262;
+		list-style: none;
+		text-align: center;
+		padding: 13px 13px 13px 13px;
+		transition: all 300ms;
+	}
+
+	.content-menu li span{
+		font-size: 40px;
+	}
+
+	.content-menu li h4{
+		font-weight: 700;
+		transform: translateY(5px);
+	}
+
+	.content-menu li img{
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+	}
+
+	.content-menu li:not(#profile):hover {
+		transform: translateY(10px);
+		background-color: #2886AE;
+		color:white;
+		cursor: pointer;
+	}
+
+}
+
