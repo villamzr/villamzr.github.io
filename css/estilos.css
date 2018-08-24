@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #E0DDDD;
+}
+
+header span{
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+	transition: all 300ms;
+	cursor: pointer;
+	position: fixed;
+	left: 90px;
+}
+
+header span:hover{
+	background: rgba(0,0,0,0.4); 
+	border-radius: 100px;
+}
+
+body{
+	background-color: #E0DDDD;
+}
+
+main{
+	width: 100%;
+	background-color:  #E0DDDD;
+	display: flex;
+}
+
+article{
+	padding: 30px 30px 30px 30px;
+}
+
+article h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+article p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.content-menu{
+	width: 250px;
+	background-color: #E0DDDD;
+	position: relative;
+	transition: all 700ms;
+}
+
+.content-menu2{
+	transform: translateX(-250px);
+	margin-left: -200px;
+}
+
+.content-menu li{
+	color:#626262;
+	list-style: none;
+	text-align: center;
+	padding: 13px 13px 13px 13px;
+	transition: all 300ms;
+}
+
+.content-menu li span{
+	font-size: 40px;
+}
+
+.content-menu li h4{
+	font-weight: 700;
+	transform: translateY(5px);
+}
+
+.content-menu li img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.content-menu li:not(#profile):hover {
+	transform: translateY(10px);
+	background-color: #2886AE;
+	color:white;
+	cursor: pointer;
+}
