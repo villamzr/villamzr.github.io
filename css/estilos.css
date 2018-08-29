@@ -136,6 +136,31 @@ article .prcontent p:nth-child(2){
 	margin-right: -80px;
 }
 
+/*************************************/
+/*************************************/
+/*************************************/
+
+/*BARRAS DE PROGRESO*/
+
+.contprogress .contbarra .barra{
+	width: 200px;
+	border-radius: 10px;
+}
+
+.contprogress .contbarra .barra::-webkit-progress-bar{
+	border-radius: 10px;		
+	background-color: blue;
+}
+
+.contprogress .contbarra .barra::-webkit-progress-value{
+	border-radius: 10px;		
+	background-color: red;
+}
+
+/*************************************/
+/*************************************/
+/*************************************/
+
 .content-menu{
 	width: 250px;
 	height: 100vh;
