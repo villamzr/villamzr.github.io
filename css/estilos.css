@@ -36,18 +36,104 @@ main{
 article{
 	padding: 30px 30px 30px 30px;
 	position: absolute;
-	left: 230px;
+	left: 330px;
+	right: 200px;
 	top: 1%;
+	text-align: justify;
 }
 
 article h1{
-	font-size: 50px;
+	color: #2886AE;
+	font-size: 40px;
 	text-align: center;
+	/*background-color: #2886AE;*/
+	/*border-radius: 20px;*/
+	/*border-bottom: solid 3px #227192;*/
+}
+
+hr{
+	margin: auto;
+	border: 5px;
+	height: 2px;
+	background-color: #2886AE; 
+	width:80%;
 }
 
 article p{
 	font-size: 20px;
 	margin-top: 20px;
+	line-height: 35px;
+}
+
+article p code{
+	font-family: courier;
+	background-color: #606060;
+	color: white;
+	border-radius: 2px;
+	padding: 3px;
+	margin-left: 7px;
+}
+
+article blockquote{
+	background-color: #EAEAEA;
+	color: #2886AE;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 800;
+	font-family: 'URW Chancery L','Times New Roman' ;
+}
+
+article #educacion{
+	transform: rotate(90deg);
+	color: #2886AE;
+	margin: 120px auto;
+	width:500px;
+	border: solid 3px;
+	border-radius: 30px;
+}
+
+article .unicontent{
+	width: 80%;
+	height: 200px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	margin: 50px auto 10px;
+}
+
+article .universidades{
+	width: 150px;
+	height: 198px;
+}
+
+article .unicordoba{
+	top: 740px;
+	left: 200px;
+}
+
+article .prcontent{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+
+article .prcontent p{
+	width: 40%;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 800;
+	list-style: none;
+	text-align: center;
+	margin: 0px 0px 60px;
+	padding-right: 9%;
+}
+
+article .prcontent p:nth-child(2){
+	margin-right: -80px;
 }
 
 .content-menu{
@@ -101,14 +187,14 @@ article p{
 
 */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	
 	header{
 		height: 120px;
 		display: inline-flex;
 		position: fixed;
 		padding: 30px;
-}
+	}
 
 	header span{
 		transition: all 300ms;
@@ -117,19 +203,40 @@ article p{
 		left: 40px;
 	}
 
+	header li{
+		list-style: none;
+	}
+
+	header li img{
+		position: absolute;
+		left: 200px;
+		bottom: 20px;
+		width: 25%;
+		height: 75%;
+		border-radius: 100%;
+	}
+
 	article{
-		padding: 130px 30px 30px 30px;
-		display: block;
-		left: 20px;
+		padding: 30px 30px 30px 30px;
+		position: absolute;
+		left: 10px;
+		right: 10px;
+		top: 100px;
 		z-index: -1;
+		display: block;
 	}
 
 	article h1{
-		font-size: 60px;
+		font-size: 35px;
 	}
 
 	article p{
-		font-size: 25px;
+		font-size: 18px;
+	}
+
+	article blockquote{
+		font-size: 24px;
+		font-family: cursive, 'Times New Roman';
 	}
 
 	.content-menu{
@@ -159,6 +266,29 @@ article p{
 
 	.content-menu li:not(#profile):hover {
 		transform: translateY(4px);
+	}
+
+}
+
+/******************************************************************/
+
+/*
+
+	MEDIA QUERYS 601px hasta 1200px
+
+
+*/
+
+@media screen and (min-width: 701px) and (max-width: 1200px){
+	
+	article{
+		padding: 30px 30px 30px 30px;
+		position: absolute;
+		left: 250px;
+		right: 80px;
+		top: 10px;
+		z-index: -1;
+		display: block;
 	}
 
 }
