@@ -144,17 +144,18 @@ article .prcontent p:nth-child(2){
 
 .contprogress .contbarra .barra{
 	width: 200px;
-	border-radius: 10px;
+	height: 20px;
+	border-radius: 5px;
 }
 
 .contprogress .contbarra .barra::-webkit-progress-bar{
-	border-radius: 10px;		
-	background-color: blue;
+	border-radius: 5px;		
+	background-color: #585858;
 }
 
 .contprogress .contbarra .barra::-webkit-progress-value{
-	border-radius: 10px;		
-	background-color: red;
+	border-radius: 5px;		
+	background-color: #04B404;
 }
 
 /*************************************/
@@ -201,6 +202,37 @@ article .prcontent p:nth-child(2){
 	background-color: #2886AE;
 	color:white;
 	cursor: pointer;
+}
+
+.contprogress .cont{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cont .contbarra progress{
+	display: block;
+	margin: auto;
+}
+
+.contprogress .cont .habilidades{
+	/*margin-right: 15%; */
+}
+
+.contprogress .cont h2{
+	margin-top: 18px;
+	text-align: center;
+}
+
+.contprogress .cont .habilidades h2:nth-child(1){
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.contprogress .cont .tecnicas{
+	margin-top: .5%; 
 }
 
 /******************************************************************/
@@ -292,7 +324,6 @@ article .prcontent p:nth-child(2){
 	.content-menu li:not(#profile):hover {
 		transform: translateY(4px);
 	}
-
 }
 
 /******************************************************************/
