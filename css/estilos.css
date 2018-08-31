@@ -1,3 +1,6 @@
+/****
+	formateo
+			****/	
 *{
 	margin:0;
 	padding:0;
@@ -5,10 +8,14 @@
 	font-family: sans-serif;
 }
 
+/***********************************/
+/********* screen max 600 **********/
+/***********************************/
+
 @media (max-width: 600px) {
 
 	body{
-			background-color: purple;
+			/*background-color: purple;*/
 		}
 
 /****
@@ -27,6 +34,10 @@
 	.cabecera header{
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.cabecera header li{
+		list-style: none;
 	}
 
 	.cabecera header img{
@@ -59,6 +70,11 @@
 		position: fixed;
 		margin-top: 60px;
 		background-color: green;
+		transition: all 400ms;
+	}
+
+	.cont-menu2{
+		transform: translateX(-100px);
 	}
 
 	.cont-menu li{
@@ -89,5 +105,14 @@
 	.cont-menu h4{
 		font-size: 16px;
 		margin-top: 5px;
+	}
+
+	/****
+	    contenedor general de las secciones
+			   ****/	
+	.cont-general{
+		background-color: white;
+		width: 100%;
+		padding: 45px 50px;
 	}
 }
