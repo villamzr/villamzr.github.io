@@ -48,14 +48,17 @@
 	}
 
 	.cabecera header span{
-		font-size: 40px;
-		padding: 10px;
+		font-size: 35px;
+		margin-top: 3px;
+		padding: 10px ;
 		color: white;
 	}
 
 	.cabecera header span:hover{
 		background: rgba(0,0,0,0.4); 
 		border-radius: 100px;
+		height: 100%;
+		margin-top: 3px;
 	}
 
 /****
