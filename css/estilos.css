@@ -5,347 +5,89 @@
 	font-family: sans-serif;
 }
 
-header{
-	width: 100%;
-	height: 60px;
-	background-color: #E0DDDD;
-	display: none;
-}
+@media (max-width: 600px) {
 
-header span{
-	font-size: 40px;
-	padding: 10px;
-	color: white;
-}
+	body{
+			background-color: purple;
+		}
 
-header span:hover{
-	background: rgba(0,0,0,0.4); 
-	border-radius: 100px;
-}
-
-body{
-	background-color: #E0DDDD;
-}
-
-main{
-	width: 100%;
-	background-color:  #E0DDDD;
-	display: block;
-}
-
-article{
-	padding: 30px 30px 30px 30px;
-	position: absolute;
-	left: 330px;
-	right: 200px;
-	top: 1%;
-	text-align: justify;
-}
-
-article h1{
-	color: #2886AE;
-	font-size: 40px;
-	text-align: center;
-	/*background-color: #2886AE;*/
-	/*border-radius: 20px;*/
-	/*border-bottom: solid 3px #227192;*/
-}
-
-hr{
-	margin: auto;
-	border: 5px;
-	height: 2px;
-	background-color: #2886AE; 
-	width:80%;
-}
-
-article p{
-	font-size: 20px;
-	margin-top: 20px;
-	line-height: 35px;
-}
-
-article p code{
-	font-family: courier;
-	background-color: #606060;
-	color: white;
-	border-radius: 2px;
-	padding: 3px;
-	margin-left: 7px;
-}
-
-article blockquote{
-	background-color: #EAEAEA;
-	color: #2886AE;
-	border-radius: 10px;
-	text-align: center;
-	padding: 20px 30px 20px 30px;
-	font-size: 22px;
-	font-style: italic;
-	font-weight: 800;
-	font-family: 'URW Chancery L','Times New Roman' ;
-}
-
-article #educacion{
-	transform: rotate(90deg);
-	color: #2886AE;
-	margin: 120px auto;
-	width:500px;
-	border: solid 3px;
-	border-radius: 30px;
-}
-
-article .unicontent{
-	width: 80%;
-	height: 200px;
-	margin-top: 40px;
-	display: flex;
-	justify-content: space-around;
-	margin: 50px auto 10px;
-}
-
-article .universidades{
-	width: 150px;
-	height: 198px;
-}
-
-article .unicordoba{
-	top: 740px;
-	left: 200px;
-}
-
-article .prcontent{
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	margin: auto;
-}
-
-article .prcontent p{
-	width: 40%;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 800;
-	list-style: none;
-	text-align: center;
-	margin: 0px 0px 60px;
-	padding-right: 9%;
-}
-
-article .prcontent p:nth-child(2){
-	margin-right: -80px;
-}
-
-/*************************************/
-/*************************************/
-/*************************************/
-
-/*BARRAS DE PROGRESO*/
-
-.contprogress .contbarra .barra{
-	width: 200px;
-	height: 20px;
-	border-radius: 5px;
-}
-
-.contprogress .contbarra .barra::-webkit-progress-bar{
-	border-radius: 5px;		
-	background-color: #585858;
-}
-
-.contprogress .contbarra .barra::-webkit-progress-value{
-	border-radius: 5px;		
-	background-color: #04B404;
-}
-
-/*************************************/
-/*************************************/
-/*************************************/
-
-.content-menu{
-	width: 250px;
-	height: 100vh;
-	background-color: #E0DDDD;
-	position: fixed;
-}
-
-.content-menu2{
-	transform: translateX(-250px);
-	margin-left: -200px;
-}
-
-.content-menu li{
-	color:#626262;
-	list-style: none;
-	text-align: center;
-	padding: 13px 13px 13px 13px;
-	transition: all 300ms;
-}
-
-.content-menu li span{
-	font-size: 40px;
-}
-
-.content-menu li h4{
-	font-weight: 700;
-	transform: translateY(5px);
-}
-
-.content-menu li img{
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-}
-
-.content-menu li:not(#profile):hover {
-	transform: translateY(10px);
-	background-color: #2886AE;
-	color:white;
-	cursor: pointer;
-}
-
-.contprogress .cont{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.cont .contbarra progress{
-	display: block;
-	margin: auto;
-}
-
-.contprogress .cont .habilidades{
-	/*margin-right: 15%; */
-}
-
-.contprogress .cont h2{
-	margin-top: 18px;
-	text-align: center;
-}
-
-.contprogress .cont .habilidades h2:nth-child(1){
-	text-align: center;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-
-.contprogress .cont .tecnicas{
-	margin-top: .5%; 
-}
-
-/******************************************************************/
-
-/*
-
-	MEDIA QUERYS 600 px 
-
-
-*/
-
-@media screen and (max-width: 700px){
-	
-	header{
-		height: 120px;
-		display: inline-flex;
+/****
+	cabecera
+			****/	
+	.cabecera{
+		width: 100%;
+		height: 60px;
 		position: fixed;
-		padding: 30px;
+		background-color: green;
+		box-shadow: 4px 3px 30px 2px #0B3B0B;
+		-webkit-box-shadow: 4px 3px 30px 2px #0B3B0B;
+		-moz-box-shadow: 4px 3px 30px 2px #0B3B0B;
 	}
 
-	header span{
-		transition: all 300ms;
-		cursor: pointer;
-		position: fixed;
-		left: 40px;
+	.cabecera header{
+		display: flex;
+		justify-content: space-between;
 	}
 
-	header li{
+	.cabecera header img{
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+		margin: 5px 10px; 
+	}
+
+	.cabecera header span{
+		font-size: 40px;
+		padding: 10px;
+		color: white;
+	}
+
+	.cabecera header span:hover{
+		background: rgba(0,0,0,0.4); 
+		border-radius: 100px;
+	}
+
+/****
+	menu
+		****/
+
+	.cont-menu{
+		width: 100px;
+		height:90vh;
+		display: flex;
+		flex-wrap: wrap;
+		position: fixed;
+		margin-top: 60px;
+		background-color: green;
+	}
+
+	.cont-menu li{
+		width: 100%;
+		height: 80px;
 		list-style: none;
+		padding: 10px 0px; 
+		text-align: center;
+		background-color: green;
+		transition: all 400ms;
 	}
 
-	header li img{
-		position: absolute;
-		left: 200px;
-		bottom: 20px;
-		width: 25%;
-		height: 75%;
+	.cont-menu li:hover:not(#profile){
+		background-color: yellow;
+		transform: translateY(10px);
+	}
+
+	.cont-menu img{
+		width: 80px;
+		height: 80px;
 		border-radius: 100%;
 	}
 
-	article{
-		padding: 30px 30px 30px 30px;
-		position: absolute;
-		left: 10px;
-		right: 10px;
-		top: 100px;
-		z-index: -1;
-		display: block;
-	}
-
-	article h1{
+	.cont-menu span{
 		font-size: 35px;
 	}
 
-	article p{
-		font-size: 18px;
-	}
-
-	article blockquote{
-		font-size: 24px;
-		font-family: cursive, 'Times New Roman';
-	}
-
-	.content-menu{
-		width: 150px;
-		height: 100vh;
-		display: block;
-		position: fixed;
-		top: 100px;
-		transition: all 700ms;
-	}
-
-	.content-menu li{
-		padding: 5px 13px 18px 13px;
-		transition: all 700ms;
-	}
-
-
-	.content-menu li span{
-		font-size: 30px;
-	}
-
-
-	.content-menu li img{
-		width: 90%;
-		height: 90%;
-	}
-
-	.content-menu li:not(#profile):hover {
-		transform: translateY(4px);
+	.cont-menu h4{
+		font-size: 16px;
+		margin-top: 5px;
 	}
 }
-
-/******************************************************************/
-
-/*
-
-	MEDIA QUERYS 601px hasta 1200px
-
-
-*/
-
-@media screen and (min-width: 701px) and (max-width: 1200px){
-	
-	article{
-		padding: 30px 30px 30px 30px;
-		position: absolute;
-		left: 250px;
-		right: 80px;
-		top: 10px;
-		z-index: -1;
-		display: block;
-	}
-
-}
-

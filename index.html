@@ -11,92 +11,107 @@
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-	<header>
-		<span class="lnr lnr-menu show"></span>
-		<li id="prof"><img src="img/profil.jpeg" alt="profile"></li>
-	</header>
-	<main>
-		<div class="content-menu">
-			<li id="profile"><img src="img/profil.jpeg" alt="profile"></li>
-			<li id="sobremi"><span class="lnr lnr-heart"></span><h4>Sobre mí</h4></li>
-			<li id="educacion"><span class="lnr lnr-book"></span><h4>Educación</h4></li>
-			<li id="habilidades"><span class="lnr lnr-rocket"></span><h4>Habilidades</h4></li>
-			<li id="portafolio"><span class="lnr lnr-code"></span><h4>Portafolio</h4></li>
+	<div class="cabecera">
+		<header>
+			<span class="lnr lnr-menu show"></span>
+			<img src="img/profil.jpeg" alt="profile">
+		</header>
+	</div>
+
+	<!--   MENU   -->
+	<div class="cont-menu">
+		<li id="profile"><img src="img/profil.jpeg" alt="profile"></li>
+		<li id="sobremi"><span class="lnr lnr-heart"></span><h4>Sobre mí</h4></li>
+		<li id="educacion"><span class="lnr lnr-book"></span><h4>Educación</h4></li>
+		<li id="habilidades"><span class="lnr lnr-rocket"></span><h4>Habilidades</h4></li>
+		<li id="portafolio"><span class="lnr lnr-code"></span><h4>Portafolio</h4></li>
+	</div>
+	<!--  /MENU   -->
+
+	<!--  CONTENEDOR DE SECCIONES   -->		
+	<div class="cont-general">
+
+		<!--  CONTENEDOR SOBRE MI   -->
+		<div class="cont-general sobremi">
+			<section">
+				<article>
+					<h1>SOBRE MÍ</h1>
+					<hr/>
+					<p>Mi nombre es <i>Alejandro Villamizar</i>, soy <b>Web Developer</b>, por pasión, vocación y profesión.<p>
+
+					<p>Pienso que no todos los amores los conoces por Tinder (o alguna red social); en mi caso, fue desde que pude ver funcionando <code class="codigo"> Hello World!</code> <i>¡Créanme, fue una emoción indescriptible!</i></p>
+
+					<p>En mis tiempos libres me dedico a la fotografía, a cantar (feo, pero con pasión) y bailar (esto no me sale tan mal).</p><br>
+	
+					<blockquote>
+						<p>"Si lo puedes imaginar, lo puedes programar"</p>
+						<p>- Anónimo -</p>
+					</blockquote>
+				<article>
+			</section>
 		</div>
-		<article>
-			<!--
-
-				SOBRE MÍ
-
-			-->
-
-			<h1>SOBRE MÍ</h1><br>
-			<hr/>
-			<p>Mi nombre es <i>Alejandro Villamizar</i>, soy <b>Web Developer</b>, por pasión, vocación y profesión.<p>
-
-			<p>Pienso que no todos los amores los conoces por Tinder (o alguna red social); en mi caso, fue desde que pude ver funcionando <code class="codigo"> Hello World!</code> <i>¡Créanme, fue una emoción indescriptible!</i></p>
-
-			<p>En mis tiempos libres me dedico a la fotografía, a cantar (feo, pero con pasión) y bailar (esto no me sale tan mal).</p><br>
-			
-			<blockquote>"Si lo puedes imaginar, lo puedes programar"<br><br>
-			- Anónimo -</blockquote><br><br>
-
-			<!--
-
-				EDUCACIÓN
-
-			-->
-
-			<h1>EDUCACIÓN</h1><br>
-			<hr/>
-			<div class="unicontent">
-				<img src="img/unicordoba.png" alt="unicordoba" class="universidades unicordoba">
-				<hr id="educacion"/>
-				<img src="img/unialicante.png" alt="unialicante" class="universidades unialicante">
-			</div>
-			<div class="prcontent">
-				<p>Lic. Informática y Medios Audiovisuales</p>
-				<p>Desarrollo Web</p>
-			</div>
-			
-			<!--
-
-				HABILIDADES
-
-			-->
-
-			<h1>HABILIDADES</h1><br>
-			<hr/>
-			<!--BARRAS DE PROGRESO-->
-
-			<div class="contprogress">
-				<div class="cont">
-					<div class="contbarra habilidades">
-						<h2>INTERPERSONALES</h2>
-						<h2>Trabajo en equipo:<span> 90%</span></h2>
-						<progress value="90" max="100" class="barra"></progress>
-						<h2>Liderazgo: <span> 80%</span></h2>
-						<progress value="80" max="100" class="barra"></progress>
-						<h2>Motivación: <span> 80%</span></h2>
-						<progress value="80" max="100" class="barra"></progress>
-					</div>
-					<div class="contbarra tecnicas">
-						<h2>TÉCNICAS</h2>
-						<h2>PHP: <span> 80%</span></h2>
-						<progress value="80" max="100" class="barra"></progress>
-						<h2>HTML5: <span> 90%</span></h2>
-						<progress value="90" max="100" class="barra"></progress>
-						<h2>Laravel: <span> 70%</span></h2>
-						<progress value="70" max="100" class="barra"></progress>
-					</div>
-				</div>
-			</div>
-
-
-		</article>
+		<!--  /CONTENEDOR SOBRE MI   -->
 		
-	</main>
+		
+		<!--  CONTENEDOR EDUCACIÓN   -->
+		<div class="cont-general educacion">
+			<section>
+				<article>
+					<h1>EDUCACIÓN</h1><br>
+					<hr/>
+					<img src="unicordoba.png" alt="unicordoba" class="universidades unicordoba">
+					<img src="unialicante.png" alt="unialicante" class="universidades unialicante">
+					<p>Lic. Informática y Medios Audiovisuales</p>
+					<p>Web Developer</p>
+				</article>
+			</section>
+		</div>
+		<!--  /CONTENEDOR EDUCACIÓN   -->
+			
+		<!-- CONTENEDOR HABILIDADES -->
+		<div class="cont-general habilidades">
+			<section>
+				<article>
+					<h1>HABILIDADES</h1>
+					<hr/>	
+					<!--BARRAS DE PROGRESO-->
+					<div class="cont-barras">
+						<div class="cont-barras interpersonales">
+							<h2>INTERPERSONALES</h2>
+							<h2>Trabajo en equipo:<span> 90%</span></h2>
+							<progress value="90" max="100" class="barra"></progress>
+							<h2>Liderazgo: <span> 80%</span></h2>
+							<progress value="80" max="100" class="barra"></progress>
+							<h2>Motivación: <span> 80%</span></h2>
+							<progress value="80" max="100" class="barra"></progress>
+						</div>
+						<div class="cont-barras tecnicas">
+							<h2>TÉCNICAS</h2>
+							<h2>PHP: <span> 80%</span></h2>
+							<progress value="80" max="100" class="barra"></progress>
+							<h2>HTML5: <span> 90%</span></h2>
+							<progress value="90" max="100" class="barra"></progress>
+							<h2>Laravel: <span> 70%</span></h2>
+							<progress value="70" max="100" class="barra"></progress>
+						</div>
+					</div>
+				</article>
+			</section>
+		</div>
+		<!-- /CONTENEDOR HABILIDADES -->
+	</div>
+	<!--  /CONTENEDOR DE SECCIONES   -->
 
+
+
+	<!--
+	<div class="footer">
+		<footer>
+			<p>&copy;2018 | by: villamzr</p>
+			<span class="lnr lnr-heart"></span>
+		</footer>
+	</div>
+	-->
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/script.js"></script>
 <script src="js/scroll.js"></script>
