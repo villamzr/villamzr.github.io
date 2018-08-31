@@ -114,8 +114,17 @@
 	    contenedor general de las secciones
 			   ****/	
 	.cont-general{
-		background-color: white;
 		width: 100%;
-		padding: 45px 50px;
+		line-height: 27px;
+		padding: 45px 22px;
+		text-align: justify;
+		background-color: white;
+	}
+
+	/****
+    	sobremi
+		      ****/
+	.cont-general .sobremi{
+		width: 100%;
 	}
 }
