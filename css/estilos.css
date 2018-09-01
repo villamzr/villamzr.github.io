@@ -118,7 +118,23 @@
 		line-height: 27px;
 		padding: 45px 22px;
 		text-align: justify;
+		font-size: 18px;
 		background-color: white;
+	}
+
+	.cont-general h1{
+		font-size: 30px;
+	}
+
+	.cont-general hr{
+		width: 100%;
+		height: 4px;
+		margin: 8px auto;
+		background-color: gray;
+	}
+
+	.cont-general p{
+		margin-top: 20px;
 	}
 
 	/****
@@ -127,4 +143,149 @@
 	.cont-general .sobremi{
 		width: 100%;
 	}
+
+	/****
+    	educacion
+		        ****/
+	.cont-general .educacion{
+		width: 100%;
+	}
+	
+	.cont-general .educacion .logos-u{
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.cont-general .educacion .logos-u img{
+		width: 140px;
+		height: 160px;
+	}
+
+	.cont-general .educacion .logos-u figcaption{
+		width: 130px;
+		font-size: 17px;
+		line-height: 18px;
+		text-align: center;
+		font-weight: 600;
+	}
+
+	/****
+    	Habilidades
+		         ****/
+	.cont-general .habilidades{
+		width: 100%;
+	}
+
+	.cont-general .habilidades .cont-barras{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+			
+	}
+
+	.cont-general .habilidades .cont-barras h2{
+		font-size: 23px;
+		text-align: center;
+	}
+	.cont-general .habilidades .cont-barras h3{
+		text-align: center;
+		padding: 10px 0px;
+	}
+
+	.cont-general .habilidades .cont-barras .interpersonales{
+		padding: 20px 0px;
+	}
+
+	.cont-general .habilidades .cont-barras .interpersonales progress{
+		display: block;
+		margin: auto;
+	}
+
+	.cont-general .habilidades .cont-barras .tecnicas{
+		padding: 20px 0px;
+	}
+
+	.cont-general .habilidades .cont-barras progress{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: red;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-webkit-progress-bar{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-webkit-progress-value{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: green;
+	}
+
+	/****
+    	Portafolio
+		         ****/
+    .cont-general .portafolio{
+    	text-align: center;
+    	background-color: gray;
+    	border-radius: 20px;
+    }
+
+    .cont-general .portafolio h2{
+    	margin: 10px auto;
+    	font-size: 18px;
+    }
+
+	/****
+		Footer
+		    ****/
+	.footer{
+		width: 100%;
+		height: 120px;
+		display: flex;
+		align-items: center;
+		background-color: green;
+	}
+
+	.footer footer{
+		width: 100%;
+		height: 60px;
+		padding: 20px;
+	}
+
+	.footer footer span{
+		background-color: yellow;
+		width: 10px;
+		height: 10px;
+	}
+
+	.footer footer .icon-twitter{
+		background-color: yellow;
+		width: 20px;
+		height: 20px;
+	}
+
+	.footer footer p{
+		text-align: center;
+		font-weight: 700;
+	}
+
+	.footer footer p a:link{
+		text-decoration: none;
+	}
+
+	.footer footer p a:visited{
+		color: black;	
+	}
+
+	.footer footer p a:link{
+		color: black;	
+	}
+
 }

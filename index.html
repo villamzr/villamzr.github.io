@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>villamzr</title>
 	<link rel="shortcut icon" href="img/favicon.png">
-	<link rel="stylesheet" href="css/icon/style.css">
+	<link rel="stylesheet" href="css/icon/lnr/style.css">
+	<link rel="stylesheet" href="css/icon/fontello/css/fontello-codes.css">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -28,7 +29,6 @@
 
 	<!--  CONTENEDOR DE SECCIONES   -->		
 	<div class="cont-general">
-
 		<!--  CONTENEDOR SOBRE MI   -->
 		<div class="cont-general sobremi">
 			<section">
@@ -36,10 +36,9 @@
 					<h1>SOBRE MÍ</h1>
 					<hr/>
 					<p>Mi nombre es <i>Alejandro Villamizar</i>, soy <b>Web Developer</b>, por pasión, vocación y profesión.<p>
-
 					<p>Pienso que no todos los amores los conoces por Tinder (o alguna red social); en mi caso, fue desde que pude ver funcionando <code class="codigo"> Hello World!</code> <i>¡Créanme, fue una emoción indescriptible!</i></p>
 
-					<p>En mis tiempos libres me dedico a la fotografía, a cantar (feo, pero con pasión) y bailar (esto no me sale tan mal).</p><br>
+					<p>En mis tiempos libres me dedico a la fotografía, a cantar (feo, pero con pasión) y bailar (esto no me sale tan mal).</p>
 	
 					<blockquote>
 						<p>"Si lo puedes imaginar, lo puedes programar"</p>
@@ -55,17 +54,17 @@
 		<div class="cont-general educacion">
 			<section>
 				<article>
-					<h1>EDUCACIÓN</h1><br>
+					<h1>EDUCACIÓN</h1>
 					<hr/>
-					<img src="img/unicordoba.png" alt="unicordoba" class="universidades unicordoba">
-					<img src="img/unialicante.png" alt="unialicante" class="universidades unialicante">
-					<p>Lic. Informática y Medios Audiovisuales</p>
-					<p>Web Developer</p>
+					<div class="logos-u">
+					<figure><img src="img/unicordoba.png" alt="unicordoba" class="universidades unicordoba"><figcaption>Lic. Informática y Medios Audiovisuales</figcaption></figure>
+					<figure><img src="img/unialicante.png" alt="unialicante" class="universidades unialicante"><figcaption>Desarrollo Web</figcaption></figure>
+					</div>
 				</article>
 			</section>
 		</div>
 		<!--  /CONTENEDOR EDUCACIÓN   -->
-			
+
 		<!-- CONTENEDOR HABILIDADES -->
 		<div class="cont-general habilidades">
 			<section>
@@ -74,42 +73,54 @@
 					<hr/>	
 					<!--BARRAS DE PROGRESO-->
 					<div class="cont-barras">
-						<div class="cont-barras interpersonales">
+						<div class="interpersonales">
 							<h2>INTERPERSONALES</h2>
-							<h2>Trabajo en equipo:<span> 90%</span></h2>
+							<h3>Trabajo en equipo:<span> 90%</span></h3>
 							<progress value="90" max="100" class="barra"></progress>
-							<h2>Liderazgo: <span> 80%</span></h2>
+							<h3>Liderazgo: <span> 80%</span></h3>
 							<progress value="80" max="100" class="barra"></progress>
-							<h2>Motivación: <span> 80%</span></h2>
+							<h3>Motivación: <span> 80%</span></h3>
 							<progress value="80" max="100" class="barra"></progress>
 						</div>
-						<div class="cont-barras tecnicas">
+						<div class="tecnicas">
 							<h2>TÉCNICAS</h2>
-							<h2>PHP: <span> 80%</span></h2>
+							<h3>PHP: <span> 80%</span></h3>
 							<progress value="80" max="100" class="barra"></progress>
-							<h2>HTML5: <span> 90%</span></h2>
+							<h3>HTML5: <span> 90%</span></h3>
 							<progress value="90" max="100" class="barra"></progress>
-							<h2>Laravel: <span> 70%</span></h2>
+							<h3>Laravel: <span> 70%</span></h3>
 							<progress value="70" max="100" class="barra"></progress>
+							<h3>SQL: <span> 80%</span></h3>
+							<progress value="80" max="100" class="barra"></progress>
+							<h3>Angular: <span> 60%</span></h3>
+							<progress value="60" max="100" class="barra"></progress>
 						</div>
 					</div>
 				</article>
 			</section>
 		</div>
 		<!-- /CONTENEDOR HABILIDADES -->
+
+		<!-- CONTENEDOR PORTAFOLIO -->
+		<div class="cont-general portafolio">
+			<section>
+				<article>
+					<h1>Próximamente podrás visualizar los proyectos realizados.</h1>
+					<h2>Sección en construcción</h2>
+				</article>
+			</section>
+		</div>
 	</div>
 	<!--  /CONTENEDOR DE SECCIONES   -->
 
 
 
-	<!--
 	<div class="footer">
 		<footer>
-			<p>&copy;2018 | by: villamzr</p>
-			<span class="lnr lnr-heart"></span>
+			<p>&copy;2018 | by: <a href="https://github.com/villamzr" target="_blank">villamzr</a></p>
+			<span class="icon-twitter">prueba</span>
 		</footer>
 	</div>
-	-->
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/scroll.js"></script>
