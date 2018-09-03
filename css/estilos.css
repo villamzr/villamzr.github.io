@@ -15,6 +15,8 @@
 
 
 /***********************************/
+/************* SALTO 1 *************/
+/***********************************/
 /********* screen max 639 **********/
 /***********************************/
 
@@ -152,7 +154,7 @@
 
 	.cont-menu{
 		width: 100px;
-		height:90vh;
+		height:100vh;
 		display: flex;
 		flex-wrap: wrap;
 		position: fixed;
@@ -167,7 +169,7 @@
 
 	.cont-menu li{
 		width: 100%;
-		height: 80px;
+		height: 90px;
 		list-style: none;
 		padding: 10px 0px; 
 		text-align: center;
@@ -175,9 +177,13 @@
 		transition: all 400ms;
 	}
 
+	.cont-menu li:not(#profile){
+		margin-top: -50px;
+	}
+
 	.cont-menu li:hover:not(#profile){
-		background-color: #00A1BC;
 		color: white;
+		background-color: #00A1BC;
 		transform: translateY(10px);
 	}
 
@@ -430,11 +436,14 @@
 
 }
 
+
 /********************************************/
-/********* screen min 601 max 1200 **********/
+/***************** SALTO 2 ******************/
+/********************************************/
+/********* screen min 640 max 1023 **********/
 /********************************************/
 
-@media screen and (min-width: 601px) and (max-width: 1200px) {
+@media screen and (min-width: 640px) and (max-width: 1023px) {
 
 /****
 	cabecera
@@ -496,14 +505,14 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin-bottom: -41px;
-		margin-top: -160px;
+		margin-bottom: -20px;
+		margin-top: -200px;
 	}
 	
 	.cont-portada .descripcion h1{
 		padding: 12px 0px 0px 0px;
 		width: 100%;
-		font-size: 25px;
+		font-size: 35px;
 		color: white;
 		text-align: center;
 	}
@@ -512,7 +521,7 @@
 		width: 100%;
 		color: white;
 		padding-top: 5px; 
-		font-size: 15px;
+		font-size: 20px;
 		text-align: center;
 	}
 
@@ -550,9 +559,9 @@
 
 	.cont-portada .img-portada{
 		width: 100%;
-		height: 240px;
-		background-color: rgba(0,0,0,0.8);
-		background-image: url(../img/portada.jpg);
+		height: 300px;
+		background-color: rgba(0,0,0,0.2);
+		background-image: url(../img/fondo1.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -568,7 +577,7 @@
 
 	.cont-menu{
 		width: 100px;
-		height:90vh;
+		height:100vh;
 		display: flex;
 		flex-wrap: wrap;
 		position: fixed;
@@ -583,17 +592,21 @@
 
 	.cont-menu li{
 		width: 100%;
-		height: 80px;
-		list-style: none;
+		height: 100px;
 		padding: 10px 0px; 
+		list-style: none;
 		text-align: center;
-		background-color: #EBEBEB;
 		transition: all 400ms;
+		background-color: #EBEBEB;
+	}
+
+	.cont-menu li:not(#profile){
+		margin-top: -50px;
 	}
 
 	.cont-menu li:hover:not(#profile){
-		background-color: #00A1BC;
 		color: white;
+		background-color: #00A1BC;
 		transform: translateY(10px);
 	}
 
@@ -605,7 +618,7 @@
 
 	.cont-menu li span{
 		color: #3E3E3E;
-		font-size: 35px;
+		font-size: 50px;
 	}
 
 	.cont-menu li h4{
@@ -622,7 +635,7 @@
 		line-height: 27px;
 		padding: 20px 22px;
 		text-align: justify;
-		font-size: 18px;
+		font-size: 22px;
 	}
 
 	.cont-general h1{
@@ -664,14 +677,14 @@
 	}
 
 	.cont-general .educacion .logos-u img{
-		width: 140px;
-		height: 160px;
+		width: 240px;
+		height: 260px;
 	}
 
 	.cont-general .educacion .logos-u figcaption{
-		width: 130px;
+		width: 230px;
 		color: #3A3A3A;
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 18px;
 		text-align: center;
 		font-weight: 600;
@@ -688,8 +701,7 @@
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
-			
+		justify-content: space-around;			
 	}
 
 	.cont-general .habilidades .cont-barras h2{
