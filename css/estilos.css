@@ -138,7 +138,7 @@
 		width: 100%;
 		height: 240px;
 		background-color: rgba(0,0,0,0.8);
-		background-image: url(../img/portada.jpg);
+		background-image: url(../img/portada1.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -925,8 +925,8 @@
 	}
 
 	.cont-portada .descripcion .fab{
-		font-size: 50px;
 		color: white;
+		font-size: 50px;
 		padding: 10px 5px 0px;
 	}
 
@@ -1210,11 +1210,6 @@
 		color: #3E3E3E;
 	}
 
-	.footer footer a:hover{
-		color: #3E3E3E;
-		font-size: 40px;
-	}
-
 	.footer footer p{
 		width: 100%;
 		color: #3E3E3E;
@@ -1236,14 +1231,17 @@
 	}
 
 	.footer footer a .fa-twitter:hover{
+		font-size: 40px;
 		color: #00ACEE;
 	}
 
 	.footer footer a .fa-linkedin:hover{
+		font-size: 40px;
 		color: #0E76A8;
 	}
 
 	.footer footer a .fa-github:hover{
+		font-size: 40px;
 		color: black;
 	}
 
