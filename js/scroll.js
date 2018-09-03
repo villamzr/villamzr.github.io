@@ -1,5 +1,5 @@
 
-if (screen.width <=700) {
+if (screen.width <= 600) {
 
 	/*$('#prof').on('click', function(){
 		$('html, body').animate({scrollTop:0}, 1000);
