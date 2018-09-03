@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-		if ($(window).width() <= 600) {
+		if ($(window).width() <= 639) {
 
 		$('#perfilCabecera').on('click', function(){
 			$('html, body').animate({scrollTop:0}, 1000);
