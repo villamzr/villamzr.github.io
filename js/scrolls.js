@@ -11,19 +11,19 @@ $(document).ready(function(){
 		});
 
 		$('#sobremi').on('click', function(){
-			$('html, body').animate({scrollTop:250}, 1000);
+			$('html, body').animate({scrollTop:$('.sobremi').offset().top}, 1000);
 		});
 
 		$('#educacion').on('click', function(){
-			$('html, body').animate({scrollTop:950}, 1000);
+			$('html, body').animate({scrollTop:$('.educacion').offset().top}, 1000);
 		});
 
 		$('#habilidades').on('click', function(){
-			$('html, body').animate({scrollTop:1260}, 1000);
+			$('html, body').animate({scrollTop:$('.habilidades').offset().top}, 1000);
 		});
 
 		$('#portafolio').on('click', function(){
-			$('html, body').animate({scrollTop:2000}, 1000);
+			$('html, body').animate({scrollTop:$('.portafolio').offset().top}, 1000);
 		});
 	}
 })
