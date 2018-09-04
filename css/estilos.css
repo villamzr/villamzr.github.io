@@ -335,6 +335,31 @@
 		background-color: #00A1BC;
 	}
 
+	.cont-general .habilidades .cont-barras progress::-moz-progress-bar{
+		border-radius: 10px;
+		background-color: #00A1BC;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-moz-progress-value{
+		border-radius: 5px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-o-progress-bar{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-o-progress-value{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: #00A1BC;
+	}
+
+
 	/****
     	Portafolio
 		         ****/
@@ -749,6 +774,31 @@
 		background-color: #00A1BC;
 	}
 
+	.cont-general .habilidades .cont-barras progress::-moz-progress-bar{
+		border-radius: 10px;
+		background-color: #00A1BC;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-moz-progress-value{
+		border-radius: 5px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-o-progress-bar{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-o-progress-value{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: #00A1BC;
+	}
+
+
 	/****
     	Portafolio
 		         ****/
@@ -883,6 +933,7 @@
 
 	.cabecera header span{
 		display: none;
+		visibility: hidden;
 	}
 
 /****
@@ -895,7 +946,6 @@
 		margin-bottom: 100px;
 		position: relative;
 		top: 40px;
-		z-index: -1;
 	}
 
 	.cont-portada .descripcion{
@@ -925,8 +975,8 @@
 	}
 
 	.cont-portada .descripcion .fab{
-		color: white;
 		font-size: 50px;
+		color: white;
 		padding: 10px 5px 0px;
 	}
 
@@ -979,8 +1029,13 @@
 		display: flex;
 		position: fixed;
 		margin-top: 0px;
+		z-index: 99;
 		background-color: #EBEBEB;
 		transition: all 400ms;
+		box-shadow: 0px 10px 80px #3D3D3D;
+		-webkit-box-shadow: 0px 10px 80px #3D3D3D;
+		-moz-box-shadow: 0px 10px 80px #3D3D3D;
+		-o-box-shadow: 0px 10px 80px #3D3D3D;
 	}
 
 	.cont-menu2{
@@ -1131,7 +1186,7 @@
 		width: 270px;
 		height: 25px;
 		border-radius: 10px;
-		background-color: red;
+		background-color: gray;
 	}
 
 	.cont-general .habilidades .cont-barras progress::-webkit-progress-bar{
@@ -1142,6 +1197,30 @@
 	}
 
 	.cont-general .habilidades .cont-barras progress::-webkit-progress-value{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: #00A1BC;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-moz-progress-bar{
+		border-radius: 10px;
+		background-color: #00A1BC;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-moz-progress-value{
+		border-radius: 5px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-o-progress-bar{
+		width: 270px;
+		height: 25px;
+		border-radius: 10px;
+		background-color: gray;
+	}
+
+	.cont-general .habilidades .cont-barras progress::-o-progress-value{
 		width: 270px;
 		height: 25px;
 		border-radius: 10px;

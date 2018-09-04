@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+	$('#inicio').on('click', function(){
+		$('html, body').animate({scrollTop:0}, 1000);
+	})
+
 	$('#perfilCabecera').on('click', function(){
 		$('html, body').animate({scrollTop:0}, 1000);
 	})
